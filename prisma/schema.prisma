@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 generator client {
   provider = "prisma-client-js"
 }
@@ -49,4 +50,8 @@ model VerificationToken {
   expires    DateTime
 
   @@unique([identifier, token])
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> c99f83f (Initial commit)
